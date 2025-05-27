@@ -1,0 +1,52 @@
+
+STEP-BY-STEP GUIDE: How to Analyze a Phishing Email (Real-Time Task)
+===================================================================
+
+✅ Step 1: Get a Phishing Email Sample
+-------------------------------------
+Source: Real email received by me (Santhoshkumar).
+Saved content directly from Gmail interface.
+
+✅ Step 2: View the Sender's Email Address
+------------------------------------------
+From: Angela <evinog3@gmail.com>
+- Name looks normal, but email is generic and not associated with any legitimate organization.
+📌 Phishing Indicator: Suspicious sender using Gmail, no official domain.
+
+✅ Step 3: Analyze Email Headers
+-------------------------------
+[Header analysis should be done using tools like MxToolbox or Google Admin Toolbox]
+- In this case, Gmail marked it as spam and failed SPF check.
+📌 Phishing Indicator: Header fails authentication, possible spoofing.
+
+✅ Step 4: Inspect Links
+------------------------
+Examples from email:
+- http://lovegfriend.fun/?gallery&s=Beauty_135z
+- http://adultflirt.beauty/?&s_dis=tracking101_3&gallery
+📌 Phishing Indicator: Unsecured HTTP links, adult themes, unrelated to any context.
+
+✅ Step 5: Check for Suspicious Attachments
+------------------------------------------
+- No attachments, but dangerous links act as payloads.
+📌 Phishing Indicator: Phishing via malicious links instead of files.
+
+✅ Step 6: Look at the Language
+------------------------------
+- Manipulative emotional bait (“Do you remember me?”)
+- Guilt-based text (“You disappeared after I shared my pictures.”)
+- Some grammar issues and strange sentence structure.
+📌 Phishing Indicator: Social engineering tactics and poor grammar.
+
+✅ Step 7: Summarize the Phishing Traits
+----------------------------------------
+- Spoofed or fake sender address
+- Suspicious links with hidden intent
+- Emotional manipulation and guilt trips
+- Likely part of a mass phishing campaign (repeated message over time)
+- Marked as spam by Gmail automatically
+
+🛡️ Awareness Outcome:
+This hands-on analysis taught me how phishing emails are crafted using psychology, fake identities, and shady links.
+
+#CyberSecurity #PhishingAwareness #Day2Task #SOCAnalystPath #SanthoshLearns #Securitix #EmailSecurity #CyberSecJourney
