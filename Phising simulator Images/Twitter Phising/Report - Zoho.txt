@@ -1,0 +1,24 @@
+Phishing Email Analysis Report
+
+1. Sender Email:
+   - Displayed: Zoho ( zoho-invites@webnotifications[.]net )
+   - Real: Unverified spoofed domain
+
+2. Header Analysis:
+   - SPF: fail
+   - IP from unknown country
+   - No DKIM signature
+
+3. Link Mismatch:
+   - Visible: Accept Invite(zoho.com/sign-in)
+   - Actual: http://malicious-site.ru/zohoo.com
+
+4. Attachment:
+   - File: No attachment
+   - No Suspicious compressed file
+
+5. Language:
+   - " Tamara from Contoso Corp"
+   - Poor grammar and threatening tone
+
+📌 Verdict: Confirmed phishing attempt
